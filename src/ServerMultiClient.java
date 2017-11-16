@@ -81,7 +81,7 @@ public class ServerMultiClient
       {
           e.printStackTrace();
       }
-      
+
       while (true) {
             try {
                 s = socket.accept();
