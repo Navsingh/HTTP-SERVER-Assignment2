@@ -25,7 +25,7 @@ public class Client
             if (args[i].equalsIgnoreCase("-v"))
             {
                 debug_messages = "yes";
-                System.out.println("Server will print you errors "+ debug_messages);
+                System.out.println("ServerMultiClient will print you errors "+ debug_messages);
             }
             if (args[i].equals("-d")) {
                 Directory_Name = args[i + 1];
